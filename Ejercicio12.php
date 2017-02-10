@@ -33,24 +33,3 @@
 </form>
 </body>
 </html>
-
-
-var numero;
-function cargar(){
-numero = Math.floor(Math.random() * 20);
-};
-
-function juego(){
-var num = document.getElementById('n').value
-
-if(num > 20){
-alert("Numero fuera de rango");
-} else if(num > numero){
-alert("El numero ingresado es Mayor");
-} else if(num < numero){
-alert("El numero ingresado es Menor");
-} else if(num == numero){
-alert("Felicitaciones, te has ganado una menta");
-numero = Math.floor(Math.random() * 20);
-};
-};
