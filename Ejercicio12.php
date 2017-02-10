@@ -14,7 +14,7 @@
                     if (opcion == "Cargar"){
                         alert("Se ha generado un nuevo número para adivinar");
                     }else{
-                        alert("La Longitud del Circulo con Radio "+radio+" es de: "+ msg);
+                        alert("");
                     }
                 });
         }
